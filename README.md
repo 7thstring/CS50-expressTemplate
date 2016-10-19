@@ -45,7 +45,7 @@ Setup
 - Rather than build an express server from a blank text file, we'll generate a very basic template using express-generator.
     -  ```$ express --ejs ```
 - Install node modules
-    - ```$ npm isntall ```
+    - ```$ npm isntall ``
 - Start your server to see if it works
     - ```$ nodemon  ```
 - If nodemon doesn't spit out an error, check out [localhost:3000](http://www.localhost:3000) in your browser to double check everything is running fine
@@ -107,22 +107,22 @@ The Express.js server we generated follows MVC structure. I'll cover setting up 
 
 Directory structure:
 ```
-example.com
+example.com/
 ├── app.js
-├── bin
+├── bin/
 │   └── www
 ├── node_modules/
 │   └── (╯°□°)╯︵ ┻━┻
 ├── package.json
-├── public
-│   ├── images
-│   ├── javascripts
-│   └── stylesheets
+├── public/
+│   ├── images/
+│   ├── javascripts/
+│   └── stylesheets/
 │       └── style.css
-├── routes
+├── routes/
 │   ├── index.js
 │   └── users.js
-└── views
+└── views/
     ├── error.ejs
     └── index.ejs
 ```
